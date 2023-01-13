@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+
+
+<p>JS</p>
+<button id="mybtn">Try It Now </button>
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+let p1 = 5;
+let p2 = 7;
+document.getElementById("myBtn").addEventListener("click", function() {
+  myFunction(p1, p2);
+});
+
+function myFunction(a, b) {
+  document.getElementById("demo").innerHTML = a * b;
+}
+</script>
+<script src="es6.js"></script>
+</body>
+</html>
+
+
